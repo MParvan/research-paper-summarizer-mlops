@@ -17,35 +17,29 @@ A production-grade NLP system that summarizes research papers using state-of-the
 - GCP/AWS (optional for deployment)
 
 ## 📁 Project Structure
+
+```
 research-paper-summarizer-mlops/
-│
-├── data/                   # Raw and processed datasets
-│   ├── raw/                
+├── data/                # Raw and processed datasets
+│   ├── raw/
 │   └── processed/
-│
-├── notebooks/              # Exploration and visualization notebooks
+├── notebooks/           # Exploration and visualization notebooks
 │   └── data_preparation.ipynb
-│
 ├── src/
-│   ├── data/               # Preprocessing & dataset scripts
-│   ├── model/              # Model training, inference
-│   ├── pipeline/           # ML pipeline & orchestration logic
-│   └── api/                # FastAPI app for REST endpoints
-│
-├── docker/                 # Dockerfiles for services
-│
-├── scripts/                # CLI tools and automation scripts
-│
-├── tests/                  # Unit/integration tests
-│
-├── .github/                # CI/CD workflows
-│
-├── streamlit_app/          # Frontend UI
-│
+│   ├── data/            # Preprocessing & dataset scripts
+│   ├── model/           # Model training, inference
+│   ├── pipeline/        # ML pipeline & orchestration logic
+│   └── api/             # FastAPI app for REST endpoints
+├── docker/              # Dockerfiles for services
+├── scripts/             # CLI tools and automation scripts
+├── tests/               # Unit/integration tests
+├── .github/             # CI/CD workflows
+├── streamlit_app/       # Frontend UI
 ├── requirements.txt
 ├── docker-compose.yml
 ├── README.md
 └── pyproject.toml
+```
 
 
 ## 📊 Dataset
