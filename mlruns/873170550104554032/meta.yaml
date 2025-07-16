@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/milad/Desktop/research-paper-summarizer-mlops/mlruns/873170550104554032
+creation_time: 1752674453937
+experiment_id: '873170550104554032'
+last_update_time: 1752674453937
+lifecycle_stage: active
+name: arxiv-bart-summarization
