@@ -17,20 +17,49 @@ A production-grade NLP system that summarizes research papers using state-of-the
 - GCP/AWS (optional for deployment)
 
 ## 📁 Project Structure
-(Include structure as shown above)
+research-paper-summarizer-mlops/
+│
+├── data/                   # Raw and processed datasets
+│   ├── raw/                
+│   └── processed/
+│
+├── notebooks/              # Exploration and visualization notebooks
+│   └── data_preparation.ipynb
+│
+├── src/
+│   ├── data/               # Preprocessing & dataset scripts
+│   ├── model/              # Model training, inference
+│   ├── pipeline/           # ML pipeline & orchestration logic
+│   └── api/                # FastAPI app for REST endpoints
+│
+├── docker/                 # Dockerfiles for services
+│
+├── scripts/                # CLI tools and automation scripts
+│
+├── tests/                  # Unit/integration tests
+│
+├── .github/                # CI/CD workflows
+│
+├── streamlit_app/          # Frontend UI
+│
+├── requirements.txt
+├── docker-compose.yml
+├── README.md
+└── pyproject.toml
+
 
 ## 📊 Dataset
-(Describe dataset, see below)
+
 
 ## 🛠️ Getting Started
-Instructions to set up the project.
+
 
 ## 🤖 Inference API
-Example usage of deployed API.
+
 
 ## 🧪 Tests
-How to run unit and integration tests.
+
 
 ## 🧠 Authors & License
-Milad Parvan — [GitHub](#) | [LinkedIn](#)
+Milad Parvan — [GitHub](https://github.com/MParvan) | [LinkedIn](https://www.linkedin.com/in/milad-parvan-6ba485221/)
 MIT License
